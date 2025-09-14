@@ -164,7 +164,7 @@ const projects = [
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(false);
 
-  console.log(projects.map((p, i) => p.image[i]));
+  // console.log(projects.map((p, i) => p.image[i]));
 
   return (
     <div

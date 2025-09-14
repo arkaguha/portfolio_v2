@@ -1,8 +1,8 @@
 import emailjs from "@emailjs/browser";
 
-const YOUR_SERVICE_ID = "service_6ndk5ok";
-const YOUR_TEMPLATE_ID = "template_xfeurla";
-const YOUR_PUBLIC_KEY = "sZUZsiP-8zHdZij-5";
+const YOUR_SERVICE_ID = import.meta.env.YOUR_SERVICE_ID;
+const YOUR_TEMPLATE_ID = import.meta.env.YOUR_TEMPLATE_ID;
+const YOUR_PUBLIC_KEY = import.meta.env.YOUR_PUBLIC_KEY;
 
 export default function ContactMe() {
   const handleSubmit = (e) => {

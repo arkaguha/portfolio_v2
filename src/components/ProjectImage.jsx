@@ -21,7 +21,7 @@ export default function ProjectImage({ images }) {
 
   return (
     <div className="">
-      <img src={viewImage} alt="" />
+      <img src={viewImage} alt="" className=" rounded-xl" />
       <div className="text-center grid grid-cols-3 items-center p-2">
         <div className="text-right">
           <button
