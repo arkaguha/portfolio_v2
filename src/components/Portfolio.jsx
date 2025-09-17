@@ -1,14 +1,10 @@
 import { useState } from "react";
-
 import { Github } from "lucide-react";
 import { FaNode, FaReact, FaJsSquare } from "react-icons/fa";
 import { SiMongodb, SiMongoose, SiExpress, SiEjs } from "react-icons/si";
-
 import { RiTailwindCssFill } from "react-icons/ri";
-
 import WorkExperience from "./WorkExperience";
 import Education from "./Education";
-
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import About from "./About";
@@ -16,6 +12,7 @@ import Projects from "./Projects";
 import Skills from "./Skills";
 import Footer from "./Footer";
 import ContactMe from "./ContactMe";
+import { injectSpeedInsights } from "@vercel/speed-insights";
 
 const techIcons = {
   nodejs: <FaNode size="2em" fill="rgb(93,174,71)" />,
@@ -161,6 +158,7 @@ const projects = [
 
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(false);
+  injectSpeedInsights();
 
   // console.log(projects.map((p, i) => p.image[i]));
 
