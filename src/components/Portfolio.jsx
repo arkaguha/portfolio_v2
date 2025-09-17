@@ -1,8 +1,8 @@
-// import "./Portfolio.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import React, { useState } from "react";
-// import emailjs from "@emailjs/browser";
-import { Sun, Moon, Github, Linkedin } from "lucide-react";
+
+import { Github } from "lucide-react";
 import { FaNode, FaReact, FaJsSquare } from "react-icons/fa";
 import { SiMongodb, SiMongoose, SiExpress, SiEjs } from "react-icons/si";
 
@@ -197,6 +197,7 @@ export default function Portfolio() {
 
       {/* Footer */}
       <Footer />
+      <SpeedInsights />
     </div>
   );
 }
