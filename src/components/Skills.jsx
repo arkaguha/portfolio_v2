@@ -14,8 +14,8 @@ export default function Skills({ skills, darkMode, techIcons }) {
           {skills.map((stack, index) => (
             <div
               key={index}
-              className={`rounded-xl shadow p-6 transition-colors ${
-                darkMode ? `${stack.color}-700` : `${stack.color}-50`
+              className={`rounded-xl shadow p-6 transition-colors text-black ${
+                darkMode ? `${stack.dark}` : `${stack.light}`
               }`}
             >
               <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">

@@ -15,7 +15,7 @@ export default function Navbar({ setDarkMode, darkMode }) {
           <a href="#about" className="hover:text-blue-500 hover:scale-105">
             About
           </a>
-          <a href="#experience" className="hover:text-blue-500 hover:scale-105">
+          <a href="#work" className="hover:text-blue-500 hover:scale-105">
             Work Experience
           </a>
           <a href="#education" className="hover:text-blue-500 hover:scale-105">

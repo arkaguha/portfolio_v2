@@ -21,7 +21,12 @@ export default function ProjectImage({ images }) {
 
   return (
     <div className="">
-      <img src={viewImage} alt="" className=" rounded-xl" />
+      <img
+        src={viewImage}
+        alt=""
+        className="rounded-xl border-1 border-amber-600 shadow-[0_0_20px_rgba(251,191,36,0.6)] transition duration-300"
+      />
+
       <div className="text-center grid grid-cols-3 items-center p-2">
         <div className="text-right">
           <button

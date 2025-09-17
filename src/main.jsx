@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-// import Portfolio from "./portfolio_wireframe";
-// import Portfolio from "./components/portfolio";
+
 import Portfolio from "./components/Portfolio";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
