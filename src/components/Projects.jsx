@@ -17,7 +17,7 @@ export default function Projects({ projects, techIcons }) {
           {projects.map((project, index) => (
             <div
               key={project.id}
-              className="bg-gray-100 dark:bg-gray-800 rounded-xl shadow p-6 grid grid-cols-1"
+              className="bg-gray-100 dark:bg-gray-800 rounded-xl shadow p-6 grid grid-cols-1 text-white"
             >
               {/* {project.image.map((pic, index) => (
                   
@@ -46,7 +46,8 @@ export default function Projects({ projects, techIcons }) {
               </div>
 
               <a
-                href="#"
+                href={project.githubLink}
+                target="_blank"
                 className="mt-auto text-blue-600 dark:text-blue-400 font-medium hover:underline"
               >
                 View Project →

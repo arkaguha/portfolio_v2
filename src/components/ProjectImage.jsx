@@ -37,7 +37,7 @@ export default function ProjectImage({ images }) {
           </button>
         </div>
 
-        <p className="text-white">{currentIndex + "/" + imagesCount}</p>
+        <p className="text-white">{currentIndex + 1 + "/" + imagesCount}</p>
         <div className="text-left">
           <button className="text-3xl hover:text-2xl" onClick={handleNextImage}>
             ➡️

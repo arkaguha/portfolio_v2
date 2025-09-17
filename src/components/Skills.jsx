@@ -14,11 +14,11 @@ export default function Skills({ skills, darkMode, techIcons }) {
           {skills.map((stack, index) => (
             <div
               key={index}
-              className={`rounded-xl shadow p-6 transition-colors text-black ${
+              className={`rounded-xl shadow p-6 transition-colors text-black  ${
                 darkMode ? `${stack.dark}` : `${stack.light}`
               }`}
             >
-              <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
+              <h3 className="text-xl font-semibold mb-4 flex items-center text-center gap-2">
                 {stack.icon} {stack.category}
               </h3>
               <ul className="space-y-2">

@@ -125,8 +125,8 @@ const projects = [
     title: "Personal Portfolio Website",
     description:
       "A modern, responsive portfolio built using React (Vite) and TailwindCSS, featuring dynamic sections for projects and skills. Includes a fully functional contact form integrated with EmailJS for instant email submissions. Implements a dark/light theme toggle, smooth animations, and showcases my MERN stack projects with real-time updates.",
-    githubLink: "https://github.com/arkaguha/portfolio",
-    liveLink: "https://arka-guha-portfolio.vercel.app",
+    githubLink: "https://github.com/arkaguha/portfolio_v2",
+    liveLink: "https://portfolio-v2-chi-rust.vercel.app/",
     techStack: [
       "reactjs",
       "tailwindcss",
@@ -137,9 +137,9 @@ const projects = [
       "vite",
     ],
     image: [
-      "/portfolio/screenshot1.png",
-      "/portfolio/screenshot2.png",
-      "/portfolio/screenshot3.png",
+      "/portfolio/Screenshot 2025-09-17 143607.png",
+      "/portfolio/Screenshot 2025-09-17 143759.png",
+      "/portfolio/Screenshot 2025-09-17 143820.png",
     ],
   },
 
