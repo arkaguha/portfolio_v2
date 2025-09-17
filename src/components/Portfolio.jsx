@@ -1,6 +1,4 @@
-import { SpeedInsights } from "@vercel/speed-insights/next";
-
-import React, { useState } from "react";
+import { useState } from "react";
 
 import { Github } from "lucide-react";
 import { FaNode, FaReact, FaJsSquare } from "react-icons/fa";
@@ -197,7 +195,6 @@ export default function Portfolio() {
 
       {/* Footer */}
       <Footer />
-      <SpeedInsights />
     </div>
   );
 }
