@@ -52,6 +52,13 @@ export default function Projects({ projects, techIcons }) {
               >
                 View Project →
               </a>
+              <a
+                href={project.liveLink}
+                target="_blank"
+                className="mt-auto text-blue-600 dark:text-blue-400 font-medium hover:underline"
+              >
+                Live →
+              </a>
             </div>
           ))}
           {/* Add more project cards here */}
