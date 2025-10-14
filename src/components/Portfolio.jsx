@@ -95,7 +95,7 @@ const projects = [
     description:
       "A full-stack Todo application built with the MERN stack, featuring secure authentication, intuitive task management, and real-time updates. Designed with a responsive UI for seamless use across devices, it offers efficient CRUD operations and a clean, modern user experience.",
     githubLink: "https://github.com/arkaguha/Mern-Todo---TailwindCSS",
-    liveLink: "https://mern-todo-tailwind-css.vercel.app/login",
+    liveLink: "https://mern-todo-tailwind-css.vercel.app",
     techStack: [
       "nodejs",
       "express",
