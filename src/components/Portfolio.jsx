@@ -1,7 +1,13 @@
 import { useState } from "react";
 import { Github } from "lucide-react";
 import { FaNode, FaReact, FaJsSquare } from "react-icons/fa";
-import { SiMongodb, SiMongoose, SiExpress, SiEjs } from "react-icons/si";
+import {
+  SiMongodb,
+  SiMongoose,
+  SiExpress,
+  SiEjs,
+  SiGooglegemini,
+} from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import WorkExperience from "./WorkExperience";
 import Education from "./Education";
@@ -40,6 +46,7 @@ const techIcons = {
   crud: "",
   github: <Github />,
   rest: "",
+  gemini: <SiGooglegemini />,
 };
 // const techNames = {
 //   nodejs: "Node.js",
@@ -86,11 +93,39 @@ const skills = [
     dark: "bg-pink-200",
     skills: ["REST", "CRUD", "GitHub"],
   },
+  {
+    category: "AI",
+    light: "bg-gray-100",
+    dark: "bg-gray-200",
+    skills: ["Gemini", "Text Embedding", "RAG"],
+  },
 ];
 
 const projects = [
   {
     id: 1,
+    title: "Document Intelligence and Knowledge Search Hub - [in-progress]",
+    description:
+      "A full stack application using the MERN stack that allows users to upload documents, extract content from them, and search through the information using an AI question answering feature. The user should be able to ask any question related to the uploaded documents and the system must respond with a meaningful answer backed by document references.",
+    githubLink: "https://github.com/arkaguha/Mern-With-AI/tree/development",
+    liveLink: "/NotLiveYet",
+    techStack: [
+      "nodejs",
+      "express",
+      "reactjs",
+      "mongoose",
+      "mongodb",
+      "html",
+      "css",
+      "tailwindcss",
+      "javascript",
+      "Gemini-2.5-flash",
+      "RAG",
+    ],
+    image: ["/docqa/chat.png", "/docqa/chatHistory.png"],
+  },
+  {
+    id: 2,
     title: "Todo App",
     description:
       "A full-stack Todo application built with the MERN stack, featuring secure authentication, intuitive task management, and real-time updates. Designed with a responsive UI for seamless use across devices, it offers efficient CRUD operations and a clean, modern user experience.",
@@ -117,7 +152,7 @@ const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Personal Portfolio Website",
     description:
       "A modern, responsive portfolio built using React (Vite) and TailwindCSS, featuring dynamic sections for projects and skills. Includes a fully functional contact form integrated with EmailJS for instant email submissions. Implements a dark/light theme toggle, smooth animations, and showcases my MERN stack projects with real-time updates.",
